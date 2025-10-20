@@ -1,0 +1,23 @@
+﻿  ActorCache.cpp
+  GameLoop.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_widgets.cpp
+  kiero.cpp
+  main.cpp
+  PlayerCache.cpp
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\SDK.hpp(12,10): error C1083: Nie można otworzyć pliku dołącz: 'SDK/InputCore_classes.hpp': No such file or directory
+  (kompilowanie pliku źródłowego „GameLoop.cpp”)
+  
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\SDK.hpp(12,10): error C1083: Nie można otworzyć pliku dołącz: 'SDK/InputCore_classes.hpp': No such file or directory
+  (kompilowanie pliku źródłowego „PlayerCache.cpp”)
+  
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\SDK.hpp(12,10): error C1083: Nie można otworzyć pliku dołącz: 'SDK/InputCore_classes.hpp': No such file or directory
+  (kompilowanie pliku źródłowego „ActorCache.cpp”)
+  
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\SDK.hpp(12,10): error C1083: Nie można otworzyć pliku dołącz: 'SDK/InputCore_classes.hpp': No such file or directory
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
