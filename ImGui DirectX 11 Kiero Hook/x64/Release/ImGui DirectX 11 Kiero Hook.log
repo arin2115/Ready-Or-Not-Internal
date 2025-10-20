@@ -1,23 +1,85 @@
 ﻿  ActorCache.cpp
   GameLoop.cpp
-  imgui.cpp
-  imgui_demo.cpp
-  imgui_draw.cpp
-  imgui_impl_dx11.cpp
-  imgui_impl_win32.cpp
-  imgui_widgets.cpp
-  kiero.cpp
   main.cpp
   PlayerCache.cpp
-C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\SDK.hpp(12,10): error C1083: Nie można otworzyć pliku dołącz: 'SDK/InputCore_classes.hpp': No such file or directory
-  (kompilowanie pliku źródłowego „GameLoop.cpp”)
+  ABP_Launcher_M32A1_functions.cpp
+  ABP_WP_G3A4_functions.cpp
+  ABP_WP_GA51_functions.cpp
+  ABP_WP_M590M_functions.cpp
+  ABP_WP_MK17_functions.cpp
+  ABP_WP_MP5SD_functions.cpp
+  ABP_WP_PIS_GRIZZLY_functions.cpp
+  ABP_WP_PIS_TRP_functions.cpp
+  ABP_WP_S16_functions.cpp
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\GameLoop.cpp(40,27): error C2397: konwersja z „double” do „float” wymaga konwersji zawężającej
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\GameLoop.cpp(40,34): error C2397: konwersja z „double” do „float” wymaga konwersji zawężającej
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\GameLoop.cpp(48,27): error C2397: konwersja z „double” do „float” wymaga konwersji zawężającej
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\GameLoop.cpp(48,34): error C2397: konwersja z „double” do „float” wymaga konwersji zawężającej
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\GameLoop.cpp(63,27): error C2397: konwersja z „double” do „float” wymaga konwersji zawężającej
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\GameLoop.cpp(63,34): error C2397: konwersja z „double” do „float” wymaga konwersji zawężającej
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\GameLoop.cpp(72,27): error C2397: konwersja z „double” do „float” wymaga konwersji zawężającej
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\GameLoop.cpp(72,34): error C2397: konwersja z „double” do „float” wymaga konwersji zawężającej
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\GameLoop.cpp(81,27): error C2397: konwersja z „double” do „float” wymaga konwersji zawężającej
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\GameLoop.cpp(81,34): error C2397: konwersja z „double” do „float” wymaga konwersji zawężającej
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\GameLoop.cpp(90,27): error C2397: konwersja z „double” do „float” wymaga konwersji zawężającej
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\GameLoop.cpp(90,34): error C2397: konwersja z „double” do „float” wymaga konwersji zawężającej
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\GameLoop.cpp(266,22): error C2660: "SDK::APlayerCharacter::TeleportPlayerToLocation": funkcja nie przyjmuje 1 argumentów
+      C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\SDK\ReadyOrNot_classes.hpp(28811,7):
+      zobacz deklarację „SDK::APlayerCharacter::TeleportPlayerToLocation”
+      C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\GameLoop.cpp(266,22):
+      podczas próby dopasowania listy argumentów "(SDK::FVector)"
   
-C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\SDK.hpp(12,10): error C1083: Nie można otworzyć pliku dołącz: 'SDK/InputCore_classes.hpp': No such file or directory
-  (kompilowanie pliku źródłowego „PlayerCache.cpp”)
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\GameLoop.cpp(309,23): error C2660: "SDK::APlayerCharacter::TeleportPlayerToLocation": funkcja nie przyjmuje 1 argumentów
+      C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\SDK\ReadyOrNot_classes.hpp(28811,7):
+      zobacz deklarację „SDK::APlayerCharacter::TeleportPlayerToLocation”
+      C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\GameLoop.cpp(309,23):
+      podczas próby dopasowania listy argumentów "(SDK::FVector)"
   
-C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\SDK.hpp(12,10): error C1083: Nie można otworzyć pliku dołącz: 'SDK/InputCore_classes.hpp': No such file or directory
-  (kompilowanie pliku źródłowego „ActorCache.cpp”)
+C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\GameLoop.cpp(560,20): error C2660: "SDK::APlayerCharacter::TeleportPlayerToLocation": funkcja nie przyjmuje 1 argumentów
+      C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\SDK\ReadyOrNot_classes.hpp(28811,7):
+      zobacz deklarację „SDK::APlayerCharacter::TeleportPlayerToLocation”
+      C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\GameLoop.cpp(560,20):
+      podczas próby dopasowania listy argumentów "(SDK::FVector)"
   
-C:\Dumper-7\5.3.2-0+Unknown-ReadyOrNot\CppSDK\Ready-Or-Not-Internal-copilot-remove-useless-functions-sdk\ImGui DirectX 11 Kiero Hook\SDK.hpp(12,10): error C1083: Nie można otworzyć pliku dołącz: 'SDK/InputCore_classes.hpp': No such file or directory
-  (kompilowanie pliku źródłowego „main.cpp”)
-  
+  ACLPlugin_functions.cpp
+  ActorLayerUtilities_functions.cpp
+  ActorSequence_functions.cpp
+  AdvancedWidgets_functions.cpp
+  AimAssistSystem_functions.cpp
+  AIModule_functions.cpp
+  AMRagdoll_functions.cpp
+  AndroidFileServer_functions.cpp
+  AnimationSharing_functions.cpp
+  ANIMBP_AK102_functions.cpp
+  ANIMBP_B1301_functions.cpp
+  ANIMBP_B92X_functions.cpp
+  ANIMBP_BCM_MK1_functions.cpp
+  ANIMBP_Benelli_M4_functions.cpp
+  ANIMBP_BRN180_functions.cpp
+  ANIMBP_C2_Charge_functions.cpp
+  ANIMBP_C2_Clacker_functions.cpp
+  ANIMBP_Chemlight_functions.cpp
+  ANIMBP_CSGAS_V2_functions.cpp
+  ANIMBP_DDM4PDW_functions.cpp
+  ANIMBP_F90_functions.cpp
+  ANIMBP_FAL_OSW_functions.cpp
+  ANIMBP_Fiveseven_functions.cpp
+  ANIMBP_Flashbang_V2_functions.cpp
+  ANIMBP_FN509_functions.cpp
+  ANIMBP_G19G5_functions.cpp
+  ANIMBP_G36C_V2_functions.cpp
+  ANIMBP_Head_Shared_Master_functions.cpp
+  ANIMBP_HK416_functions.cpp
+  ANIMBP_Kimber1911_functions.cpp
+  ANIMBP_LockPick_Gun_functions.cpp
+  ANIMBP_LVAW_functions.cpp
+  ANIMBP_M320_functions.cpp
+  ANIMBP_M45A1CQBP_functions.cpp
+  ANIMBP_M590_functions.cpp
+  ANIMBP_MCX_functions.cpp
+  ANIMBP_Mirrorgun_functions.cpp
+  ANIMBP_MK18_functions.cpp
+  ANIMBP_MP17_functions.cpp
+  ANIMBP_MP510_functions.cpp
+  ANIMBP_MP5A2_functions.cpp
+  ANIMBP_MP5A3_functions.cpp

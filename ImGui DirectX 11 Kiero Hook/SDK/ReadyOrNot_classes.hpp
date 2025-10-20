@@ -1841,7 +1841,7 @@ DUMPER7_ASSERTS_UBulletDamageType;
 
 // Class ReadyOrNot.ACNumberOfNearbyAI
 // 0x0010 (0x00E8 - 0x00D8)
-class UACNumberOfNearbyAI : public UAIActionConsideration
+class UACNumberOfNearbyAI final : public UAIActionConsideration
 {
 public:
 	ETeamType                                     TeamType;                                          // 0x00D8(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, ExposeOnSpawn, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -1892,7 +1892,7 @@ DUMPER7_ASSERTS_UPS5ActivitiesSubsystem;
 
 // Class ReadyOrNot.AC_Health
 // 0x0000 (0x00D8 - 0x00D8)
-class UAC_Health : public UAIActionConsideration
+class UAC_Health final : public UAIActionConsideration
 {
 public:
 	static class UClass* StaticClass()
@@ -1944,7 +1944,7 @@ DUMPER7_ASSERTS_UAspectRatioConstraintBox;
 
 // Class ReadyOrNot.AC_TargetHealth
 // 0x0000 (0x00D8 - 0x00D8)
-class UAC_TargetHealth : public UAIActionConsideration
+class UAC_TargetHealth final : public UAIActionConsideration
 {
 public:
 	static class UClass* StaticClass()
@@ -1964,7 +1964,7 @@ DUMPER7_ASSERTS_UAC_TargetHealth;
 
 // Class ReadyOrNot.AC_IncapacitationHealth
 // 0x0000 (0x00D8 - 0x00D8)
-class UAC_IncapacitationHealth : public UAIActionConsideration
+class UAC_IncapacitationHealth final : public UAIActionConsideration
 {
 public:
 	static class UClass* StaticClass()
@@ -2057,7 +2057,7 @@ DUMPER7_ASSERTS_ABaseArmour;
 
 // Class ReadyOrNot.AC_Ammo
 // 0x0000 (0x00D8 - 0x00D8)
-class UAC_Ammo : public UAIActionConsideration
+class UAC_Ammo final : public UAIActionConsideration
 {
 public:
 	static class UClass* StaticClass()
@@ -2142,7 +2142,7 @@ DUMPER7_ASSERTS_UAC_Armor;
 
 // Class ReadyOrNot.AC_Morale
 // 0x0000 (0x00D8 - 0x00D8)
-class UAC_Morale : public UAIActionConsideration
+class UAC_Morale final : public UAIActionConsideration
 {
 public:
 	static class UClass* StaticClass()
@@ -2162,7 +2162,7 @@ DUMPER7_ASSERTS_UAC_Morale;
 
 // Class ReadyOrNot.AC_Stress
 // 0x0000 (0x00D8 - 0x00D8)
-class UAC_Stress : public UAIActionConsideration
+class UAC_Stress final : public UAIActionConsideration
 {
 public:
 	static class UClass* StaticClass()
@@ -3023,7 +3023,7 @@ DUMPER7_ASSERTS_UAIActionGate;
 
 // Class ReadyOrNot.AGValidTarget
 // 0x0008 (0x0030 - 0x0028)
-class UAGValidTarget : public UAIActionGate
+class UAGValidTarget final : public UAIActionGate
 {
 public:
 	bool                                          bAllowFriendly;                                    // 0x0028(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -3176,7 +3176,7 @@ DUMPER7_ASSERTS_UNavQuery_SwatFallIn;
 
 // Class ReadyOrNot.AGNumActiveAI
 // 0x0008 (0x0030 - 0x0028)
-class UAGNumActiveAI : public UAIActionGate
+class UAGNumActiveAI final : public UAIActionGate
 {
 public:
 	ETeamType                                     Team;                                              // 0x0028(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -3391,7 +3391,7 @@ DUMPER7_ASSERTS_ABaseGasGrenade;
 
 // Class ReadyOrNot.AG_HasEquippedItem
 // 0x0000 (0x0028 - 0x0028)
-class UAG_HasEquippedItem : public UAIActionGate
+class UAG_HasEquippedItem final : public UAIActionGate
 {
 public:
 	static class UClass* StaticClass()
@@ -3411,7 +3411,7 @@ DUMPER7_ASSERTS_UAG_HasEquippedItem;
 
 // Class ReadyOrNot.AG_HasSecondaryRangedItem
 // 0x0000 (0x0028 - 0x0028)
-class UAG_HasSecondaryRangedItem : public UAIActionGate
+class UAG_HasSecondaryRangedItem final : public UAIActionGate
 {
 public:
 	static class UClass* StaticClass()
@@ -3683,7 +3683,7 @@ DUMPER7_ASSERTS_ABaseGasEmitter;
 
 // Class ReadyOrNot.AG_HasEquippedWeapon
 // 0x0000 (0x0028 - 0x0028)
-class UAG_HasEquippedWeapon : public UAIActionGate
+class UAG_HasEquippedWeapon final : public UAIActionGate
 {
 public:
 	static class UClass* StaticClass()
@@ -3803,7 +3803,7 @@ DUMPER7_ASSERTS_USoundManager;
 
 // Class ReadyOrNot.AG_IsSurrendered
 // 0x0008 (0x0030 - 0x0028)
-class UAG_IsSurrendered : public UAIActionGate
+class UAG_IsSurrendered final : public UAIActionGate
 {
 public:
 	float                                         Time;                                              // 0x0028(0x0004)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -4984,7 +4984,7 @@ DUMPER7_ASSERTS_UAIData;
 
 // Class ReadyOrNot.AIFactionManager
 // 0x0058 (0x02F0 - 0x0298)
-class AAIFactionManager : public AActor
+class AAIFactionManager final : public AActor
 {
 public:
 	uint8                                         bGroupIntoTeams : 1;                               // 0x0298(0x0001)(BitIndex: 0x00, PropSize: 0x0001 (Edit, BlueprintVisible, BlueprintReadOnly, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected))
@@ -5710,7 +5710,7 @@ DUMPER7_ASSERTS_UPreMissionPlanningMapLevel;
 
 // Class ReadyOrNot.AnimatedIconWidgetWithActionPrompt
 // 0x0040 (0x0400 - 0x03C0)
-class UAnimatedIconWidgetWithActionPrompt : public UAnimatedIconWidget
+class UAnimatedIconWidgetWithActionPrompt final : public UAnimatedIconWidget
 {
 public:
 	class UVerticalBox*                           VerticalBox;                                       // 0x03C0(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, Transient, InstancedReference, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -10333,7 +10333,7 @@ DUMPER7_ASSERTS_ACyberneticController;
 
 // Class ReadyOrNot.CivilianController
 // 0x0000 (0x0A80 - 0x0A80)
-class ACivilianController : public ACyberneticController
+class ACivilianController final : public ACyberneticController
 {
 public:
 	static class UClass* StaticClass()
@@ -12871,7 +12871,7 @@ DUMPER7_ASSERTS_UMapActorComponent;
 
 // Class ReadyOrNot.BreakableGlass
 // 0x0020 (0x02B8 - 0x0298)
-class ABreakableGlass : public AActor
+class ABreakableGlass final : public AActor
 {
 public:
 	uint8                                         Pad_298[0x8];                                      // 0x0298(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -14269,7 +14269,7 @@ DUMPER7_ASSERTS_ALobbyGS;
 
 // Class ReadyOrNot.CivilianCharacter
 // 0x0000 (0x2770 - 0x2770)
-class ACivilianCharacter : public ACyberneticCharacter
+class ACivilianCharacter final : public ACyberneticCharacter
 {
 public:
 	static class UClass* StaticClass()
@@ -14477,7 +14477,7 @@ DUMPER7_ASSERTS_USwatCommandWidget;
 
 // Class ReadyOrNot.MainMenuGM
 // 0x00D0 (0x0408 - 0x0338)
-class AMainMenuGM final : public AGameModeBase
+class AMainMenuGM : public AGameModeBase
 {
 public:
 	class UFMODEvent*                             MainMenuMusic;                                     // 0x0338(0x0008)(Edit, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -14568,7 +14568,7 @@ DUMPER7_ASSERTS_ACollectableViewer;
 
 // Class ReadyOrNot.CollectedEvidenceActor
 // 0x0020 (0x02B8 - 0x0298)
-class ACollectedEvidenceActor : public AActor
+class ACollectedEvidenceActor final : public AActor
 {
 public:
 	uint8                                         Pad_298[0x8];                                      // 0x0298(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -14999,7 +14999,7 @@ DUMPER7_ASSERTS_ACustomizationExtra;
 
 // Class ReadyOrNot.TeamChemlight
 // 0x0068 (0x0310 - 0x02A8)
-class ATeamChemlight : public ACustomizationExtra
+class ATeamChemlight final : public ACustomizationExtra
 {
 public:
 	TMap<ETeamType, TSoftObjectPtr<class UMaterialInterface>> TeamMaterialMap;                       // 0x02A8(0x0050)(Edit, DisableEditOnInstance, UObjectWrapper, NativeAccessSpecifierPublic)
@@ -15278,7 +15278,7 @@ DUMPER7_ASSERTS_UCommonRichTextBlockImageDecorator;
 
 // Class ReadyOrNot.ExplosiveContainer
 // 0x0058 (0x02F0 - 0x0298)
-class AExplosiveContainer : public AActor
+class AExplosiveContainer final : public AActor
 {
 public:
 	class UStaticMeshComponent*                   BaseMesh;                                          // 0x0298(0x0008)(Edit, BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, EditConst, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -15526,7 +15526,7 @@ DUMPER7_ASSERTS_UHelicopterPathNodeLightAttenuationComponent;
 
 // Class ReadyOrNot.CompliantAction
 // 0x0250 (0x02A8 - 0x0058)
-class UCompliantAction : public UAIAction
+class UCompliantAction final : public UAIAction
 {
 public:
 	bool                                          bMoveTowardSwat;                                   // 0x0058(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -15994,7 +15994,7 @@ DUMPER7_ASSERTS_UGamepadControlScheme;
 
 // Class ReadyOrNot.ExperienceDefinition
 // 0x0030 (0x0060 - 0x0030)
-class UExperienceDefinition : public UPrimaryDataAsset
+class UExperienceDefinition final : public UPrimaryDataAsset
 {
 public:
 	TArray<class FString>                         GameFeaturesToEnable;                              // 0x0030(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, NativeAccessSpecifierPublic)
@@ -16104,7 +16104,7 @@ DUMPER7_ASSERTS_UConsoleMagSelectionItem;
 
 // Class ReadyOrNot.ItemCacheActor
 // 0x0070 (0x0308 - 0x0298)
-class AItemCacheActor : public AActor
+class AItemCacheActor final : public AActor
 {
 public:
 	uint8                                         Pad_298[0x20];                                     // 0x0298(0x0020)(Fixing Size After Last Property [ Dumper-7 ])
@@ -16732,7 +16732,7 @@ DUMPER7_ASSERTS_UGamepadItemWheelControlScheme;
 
 // Class ReadyOrNot.CoverLandmark
 // 0x0348 (0x05E0 - 0x0298)
-class ACoverLandmark : public AActor
+class ACoverLandmark final : public AActor
 {
 public:
 	uint8                                         Pad_298[0x8];                                      // 0x0298(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -17306,7 +17306,7 @@ DUMPER7_ASSERTS_ASWATCharacter;
 
 // Class ReadyOrNot.TrailerSWATCharacter
 // 0x0000 (0x27C0 - 0x27C0)
-class ATrailerSWATCharacter : public ASWATCharacter
+class ATrailerSWATCharacter final : public ASWATCharacter
 {
 public:
 	static class UClass* StaticClass()
@@ -19559,7 +19559,7 @@ DUMPER7_ASSERTS_UDestructibleVehicleGlassComponent;
 
 // Class ReadyOrNot.DestructibleVehicle
 // 0x01D0 (0x0468 - 0x0298)
-class ADestructibleVehicle : public AActor
+class ADestructibleVehicle final : public AActor
 {
 public:
 	bool                                          bComplexVehicle;                                   // 0x0298(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -20110,7 +20110,7 @@ DUMPER7_ASSERTS_UDLCButtonWidget;
 
 // Class ReadyOrNot.IncapacitatedHuman
 // 0x00D0 (0x0368 - 0x0298)
-class AIncapacitatedHuman : public AActor
+class AIncapacitatedHuman final : public AActor
 {
 public:
 	uint8                                         Pad_298[0x28];                                     // 0x0298(0x0028)(Fixing Size After Last Property [ Dumper-7 ])
@@ -21896,7 +21896,7 @@ DUMPER7_ASSERTS_ALadderSnapZone;
 
 // Class ReadyOrNot.DynamicInteractableWorldItem
 // 0x00A0 (0x0338 - 0x0298)
-class ADynamicInteractableWorldItem : public AActor
+class ADynamicInteractableWorldItem final : public AActor
 {
 public:
 	uint8                                         Pad_298[0x8];                                      // 0x0298(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -22040,7 +22040,7 @@ DUMPER7_ASSERTS_IListenForGameStart;
 
 // Class ReadyOrNot.DynamicWorldItem
 // 0x0038 (0x02D0 - 0x0298)
-class ADynamicWorldItem : public AActor
+class ADynamicWorldItem final : public AActor
 {
 public:
 	class UStaticMeshComponent*                   ItemMesh;                                          // 0x0298(0x0008)(Edit, BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, EditConst, InstancedReference, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -22664,7 +22664,7 @@ DUMPER7_ASSERTS_APickupActor;
 
 // Class ReadyOrNot.EvidenceActor
 // 0x0060 (0x0360 - 0x0300)
-class AEvidenceActor : public APickupActor
+class AEvidenceActor final : public APickupActor
 {
 public:
 	uint8                                         Pad_300[0x18];                                     // 0x0300(0x0018)(Fixing Size After Last Property [ Dumper-7 ])
@@ -26964,7 +26964,7 @@ DUMPER7_ASSERTS_UNameTagCacheSubsystem;
 
 // Class ReadyOrNot.NameTag
 // 0x0058 (0x0300 - 0x02A8)
-class ANameTag : public ACustomizationExtra
+class ANameTag final : public ACustomizationExtra
 {
 public:
 	TSoftObjectPtr<class UFont>                   Font;                                              // 0x02A8(0x0028)(Edit, DisableEditOnInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -27017,7 +27017,7 @@ DUMPER7_ASSERTS_UNavSplinePathRenderingComponent;
 
 // Class ReadyOrNot.NeutralizeSuspectByTag
 // 0x0018 (0x0338 - 0x0320)
-class ANeutralizeSuspectByTag : public AObjective
+class ANeutralizeSuspectByTag final : public AObjective
 {
 public:
 	class ACyberneticCharacter*                   suspect;                                           // 0x0320(0x0008)(ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -28913,7 +28913,7 @@ DUMPER7_ASSERTS_UPlayerEffect_ModifyRecoil;
 
 // Class ReadyOrNot.PlayerHUD
 // 0x0008 (0x0390 - 0x0388)
-class APlayerHUD : public AHUD
+class APlayerHUD final : public AHUD
 {
 public:
 	class UUserWidget*                            PlayerHUD;                                         // 0x0388(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -30227,7 +30227,7 @@ DUMPER7_ASSERTS_UReadyOrNotAimAssistTargetComponent;
 
 // Class ReadyOrNot.ReadyOrNotAimAssistWeightConfig
 // 0x00C0 (0x00F0 - 0x0030)
-class UReadyOrNotAimAssistWeightConfig : public UDataAsset
+class UReadyOrNotAimAssistWeightConfig final : public UDataAsset
 {
 public:
 	TMap<class FName, float>                      MoveStyleWeights;                                  // 0x0030(0x0050)(Edit, BlueprintVisible, Protected, NativeAccessSpecifierProtected)
@@ -33675,7 +33675,7 @@ DUMPER7_ASSERTS_IReportable;
 
 // Class ReadyOrNot.ReportableActor
 // 0x00E8 (0x0380 - 0x0298)
-class AReportableActor : public AActor
+class AReportableActor final : public AActor
 {
 public:
 	uint8                                         Pad_298[0x20];                                     // 0x0298(0x0020)(Fixing Size After Last Property [ Dumper-7 ])
@@ -33729,7 +33729,7 @@ DUMPER7_ASSERTS_AReportableActor;
 
 // Class ReadyOrNot.ReportReportableByTag
 // 0x0010 (0x0330 - 0x0320)
-class AReportReportableByTag : public AObjective
+class AReportReportableByTag final : public AObjective
 {
 public:
 	uint32                                        NumReportsToComplete;                              // 0x0320(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -33878,7 +33878,7 @@ DUMPER7_ASSERTS_ARescueAllOfTheCivilians;
 
 // Class ReadyOrNot.RescueCivilianByTag
 // 0x0028 (0x0348 - 0x0320)
-class ARescueCivilianByTag : public AObjective
+class ARescueCivilianByTag final : public AObjective
 {
 public:
 	uint8                                         Pad_320[0x10];                                     // 0x0320(0x0010)(Fixing Size After Last Property [ Dumper-7 ])
@@ -34134,7 +34134,7 @@ DUMPER7_ASSERTS_URoNAnimInstance_HumanBase;
 
 // Class ReadyOrNot.RoNAnimInstance_HumanBase_V2
 // 0x0800 (0x0B50 - 0x0350)
-class URoNAnimInstance_HumanBase_V2 : public UAnimInstance
+class URoNAnimInstance_HumanBase_V2 final : public UAnimInstance
 {
 public:
 	class URoNMoveStyleComponent*                 MoveStyleComponent;                                // 0x0348(0x0008)(Edit, BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -34300,7 +34300,7 @@ DUMPER7_ASSERTS_URoNAnimInstance_HumanBase_V2;
 
 // Class ReadyOrNot.SWATController
 // 0x00E0 (0x0B60 - 0x0A80)
-class ASWATController : public ACyberneticController
+class ASWATController final : public ACyberneticController
 {
 public:
 	class UTeamFallinActivity*                    FallinActivity;                                    // 0x0A80(0x0008)(ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -34607,7 +34607,7 @@ DUMPER7_ASSERTS_URoNAnimInstance_PlayerTP;
 
 // Class ReadyOrNot.RoNAnimInstance_PlayerTP_V2
 // 0x0960 (0x0F00 - 0x05A0)
-class URoNAnimInstance_PlayerTP_V2 : public UReadyOrNotAnimInstance
+class URoNAnimInstance_PlayerTP_V2 final : public UReadyOrNotAnimInstance
 {
 public:
 	class UReadyOrNotWeaponAnimData*              LastAnimWeaponData;                                // 0x0598(0x0008)(ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -37537,7 +37537,7 @@ DUMPER7_ASSERTS_UStatFunctionLibrary;
 
 // Class ReadyOrNot.StaticCharacterFaceAnimInstance
 // 0x00A0 (0x03F0 - 0x0350)
-class UStaticCharacterFaceAnimInstance final : public UAnimInstance
+class UStaticCharacterFaceAnimInstance : public UAnimInstance
 {
 public:
 	class USkeletalMeshComponent*                 BodyDriverMesh;                                    // 0x0348(0x0008)(Edit, BlueprintVisible, ExportObject, ZeroConstructor, EditConst, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -37989,7 +37989,7 @@ DUMPER7_ASSERTS_USuppressionCombatMove;
 
 // Class ReadyOrNot.SuspectCharacter
 // 0x0010 (0x2780 - 0x2770)
-class ASuspectCharacter : public ACyberneticCharacter
+class ASuspectCharacter final : public ACyberneticCharacter
 {
 public:
 	uint8                                         Pad_2770[0x10];                                    // 0x2770(0x0010)(Fixing Struct Size After Last Property [ Dumper-7 ])

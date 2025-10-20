@@ -10,9 +10,9 @@
 
 #include "Basic.hpp"
 
+#include "W_Text_classes.hpp"
 #include "Engine_structs.hpp"
 #include "Slate_structs.hpp"
-#include "W_Text_classes.hpp"
 
 
 namespace SDK

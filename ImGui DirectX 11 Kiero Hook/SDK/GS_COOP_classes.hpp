@@ -19,7 +19,7 @@ namespace SDK
 
 // BlueprintGeneratedClass GS_COOP.GS_COOP_C
 // 0x0010 (0x0A40 - 0x0A30)
-class AGS_COOP_C : public ACoopGS
+class AGS_COOP_C final : public ACoopGS
 {
 public:
 	struct FPointerToUberGraphFrame               UberGraphFrame;                                    // 0x0A30(0x0008)(ZeroConstructor, Transient, DuplicateTransient)

@@ -12,8 +12,8 @@
 
 #include "Engine_structs.hpp"
 #include "AnimGraphRuntime_structs.hpp"
-#include "ReadyOrNot_classes.hpp"
 #include "ANIMBP_M45A1CQBP_structs.hpp"
+#include "ReadyOrNot_classes.hpp"
 
 
 namespace SDK

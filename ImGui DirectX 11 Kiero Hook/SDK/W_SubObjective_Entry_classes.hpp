@@ -10,11 +10,11 @@
 
 #include "Basic.hpp"
 
+#include "ST_SubObjective_Entry_structs.hpp"
 #include "CoreUObject_structs.hpp"
 #include "Engine_structs.hpp"
 #include "UMG_structs.hpp"
 #include "UMG_classes.hpp"
-#include "ST_SubObjective_Entry_structs.hpp"
 
 
 namespace SDK
